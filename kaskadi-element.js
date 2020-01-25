@@ -1,7 +1,7 @@
 /* eslint-env browser, mocha */
 import { css, html, LitElement } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
 
-class TemplateKaskadiElement extends LitElement {
+class KaskadiElement extends LitElement {
   constructor () {
     super()
     this.name = 'World'
@@ -30,4 +30,4 @@ class TemplateKaskadiElement extends LitElement {
     `
   }
 }
-customElements.define('template-kaskadi-element', TemplateKaskadiElement)
+customElements.define('kaskadi-element', KaskadiElement)
