@@ -1,33 +1,14 @@
 /* eslint-env browser, mocha */
 import { css, html, LitElement } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
+import { lang, translate } from './modules/translator.js'
 
 class KaskadiElement extends LitElement {
   constructor () {
     super()
-    this.name = 'World'
     this.lang = 'en'
   }
-
-  static get styles () {
-    return css`
-      :host{
-        display: inline-block;
-      }
-      div{color: red}
-    `
-  }
-
-  static get properties () {
-    return {
-      name: { type: String },
-      lang: { type: String }
-    }
-  }
-
-  render () {
-    return html`
-      <div>Hello ${this.name}!</div>
-    `
-  }
 }
-customElements.define('kaskadi-element', KaskadiElement)
+
+export { css, html, LitElement, KaskadiElement, lang, translate }
+
+export default KaskadiElement

@@ -1,7 +1,7 @@
 module.exports = config => {
   config.set({
     frameworks: ['mocha', 'chai'],
-    files: [{ pattern: 'test/**/*.js', type: 'module' }, { pattern: '*.js', included: false, type: 'module' }],
+    files: [{ pattern: 'test/**/*.test.js', type: 'module' }, { pattern: '**/*.js', included: false, type: 'module' }],
     preprocessors: { '*.js': 'coverage' },
     coverageReporter: {
       dir: 'coverage',

@@ -30,10 +30,6 @@
         {
           "src": "kaskadi-element.js",
           "dest": "modules/@kaskadi/kaskadi-element/{branch}kaskadi-element.js"
-        },
-        {
-          "src": "example/index.html",
-          "dest": "modules/@kaskadi/kaskadi-element/{branch}example/index.html"
         }
       ]
     }
@@ -48,7 +44,5 @@
     "mocha": "^7.0.0",
     "standard": "^14.3.1"
   },
-  "dependencies": {
-    "kaskadi-cli": "0.0.7"
-  }
+  "dependencies": {}
 }

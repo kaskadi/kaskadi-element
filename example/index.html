@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>kaskadi-element example</title>
-    <script type="module" src="../kaskadi-element.js"></script>
+    <title>template-kaskadi-element example</title>
+    <script type="module" src="../test/test-element.js"></script>
     <style>
       * {
         font-family: Roboto;
@@ -16,6 +16,10 @@
     </style>
   </head>
   <body>
-    <kaskadi-element></kaskadi-element>
+    <test-element></test-element>
+    <script>
+      var elem = document.createElement("test-element")
+      document.body.appendChild(elem)
+    </script>
   </body>
 </html>

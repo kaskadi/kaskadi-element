@@ -1,15 +1,16 @@
 /* eslint-env browser, mocha */
-import '../kaskadi-element.js'
+import './test-element.js'
 describe('kaskadi-element', () => {
-  it('should render the string "Hello World"', async () => {
-    // create kaskadi-element element
-    var elem = document.createElement('kaskadi-element')
-    document.body.appendChild(elem)
-    // wait until it's finished rendering
+  it('shou be usable as base class for custom elements', async () => {
+    // STRANGE BUG!!! MUST INVESTIGATE!!!
+    // try {
+    //   document.createElement('test-element')
+    // } catch (err) {
+    //   console.log('hi')
+    // }
+    document.body.innerHTML = '<test-element></test-element>'
+    const elem = document.querySelector('test-element')
     await elem.updateComplete
-    // actual test
-    elem.shadowRoot.querySelector('div').textContent.should.equal('Hello World!')
-    var cs = getComputedStyle(elem.shadowRoot.querySelector('div'))
-    cs.color.should.equal('rgb(255, 0, 0)')
+    elem.lang.should.equal('en')
   })
 })
