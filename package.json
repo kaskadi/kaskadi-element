@@ -30,10 +30,10 @@
         {
           "src": "kaskadi-element.js",
           "dest": "modules/@kaskadi/kaskadi-element/{branch}kaskadi-element.js"
-        },  {
-            "src": "modules/translator.js",
-            "dest": "modules/@kaskadi/kaskadi-element/{branch}modules/translator.js"
-          }
+        }, {
+          "src": "modules/translator.js",
+          "dest": "modules/@kaskadi/kaskadi-element/{branch}modules/translator.js"
+        }
       ]
     }
   },
