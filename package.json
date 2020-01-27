@@ -9,9 +9,12 @@
   },
   "scripts": {
     "example": "xdg-open localhost:1234/example && serve -l 1234",
-    "test": "standard --fix && karma start --single-run --browsers FirefoxHeadless,ChromeHeadless karma.conf.js",
-    "kaskadi-init": "kaskadi init && git add -u && git commit -m 'initialized from template'",
-    "coverage": "cc-test-reporter before-build && npm test && cc-test-reporter after-build -t lcov -r 7b14f1f9497bb8e48bbd7efbe19c985f33ddc452ac0a5931699136a43494c6ee"
+    "test": "npm run lint && npm run test.All",
+    "test.FF": "karma start --single-run --browsers FirefoxHeadless karma.conf.js",
+    "test.Chrome": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
+    "test.All": "karma start --single-run --browsers ChromeHeadless,FirefoxHeadless karma.conf.js",
+    "lint": "standard --fix",
+    "coverage": "npm run lint && npm run test.Chrome"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaskadi/kaskadi-element#readme"
   },
