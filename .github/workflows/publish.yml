@@ -9,7 +9,7 @@ on:
       - 'example/index.html'
       - 'package.json'
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
