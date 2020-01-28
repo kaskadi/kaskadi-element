@@ -1,15 +1,14 @@
 export function lang (strings, ...values) {
   const res = []
-  for (var i = 0; i < strings.raw.length; i++) {
+  for (var i = 0; i < strings.raw.length - 1; i++) {
     res.push(strings.raw[i])
-    if (i < strings.raw.length - 1) {
-      if (Array.isArray(values[i])) {
-        res.push(...values[i])
-      } else {
-        res.push(values[i])
-      }
+    if (Array.isArray(values[i])) {
+      res.push(...values[i])
+    } else {
+      res.push(values[i])
     }
   }
+  res.push(strings.raw[i])
   return res
 }
 
