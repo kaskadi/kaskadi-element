@@ -7,6 +7,12 @@ class KaskadiElement extends LitElement {
     super()
     this.lang = 'en'
   }
+
+  static get properties () {
+    return {
+      lang: { type: String }
+    }
+  }
 }
 
 export { css, html, LitElement, KaskadiElement, lang, translate }
