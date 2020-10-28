@@ -61,7 +61,7 @@ _Note:_ this module exports `html`, `css` and `LitElement` from `lit-element` fo
 | \[lang\] | `string` | `'en'` | element's language |
 
 **Example**  
-```html
+```js
 import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
 
 class KaskadiCustomElement extends KaskadiElement {
