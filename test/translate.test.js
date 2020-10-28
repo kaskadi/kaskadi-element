@@ -27,7 +27,7 @@ describe('translate', () => {
     translate(s1, 'fr').should.equal('hello')
     translate(s1).should.equal('hello')
   })
-  it('should work with nested tempalte strings', async () => {
+  it('should work with nested template strings', async () => {
     const s1 = {
       de: lang`${L.hello} Welt`,
       en: lang`${L.hello} World`,
