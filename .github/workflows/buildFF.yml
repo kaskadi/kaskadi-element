@@ -3,11 +3,12 @@ on:
   pull_request:
     branches:
       - 'master'
-      - 'dev'
+      - 'release/**'
     types: [opened, reopened, edited, synchronize]
     paths:
-      - '**.js'
-      - 'example/index.html'
+      - '*.js'
+      - 'modules/**'
+      - 'test/**'
 jobs:
   buildFF:
     runs-on: ubuntu-latest

@@ -6,7 +6,9 @@ on:
       - 'release/**'
     types: [opened, reopened, edited, synchronize]
     paths:
-      - '**.js'
+      - '*.js'
+      - 'modules/**'
+      - 'test/**'
 jobs:
   coverage:
     runs-on: ubuntu-latest
