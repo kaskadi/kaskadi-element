@@ -6,6 +6,7 @@ on:
       - 'release/**'
     paths:
       - '*.js'
+      - 'modules/**'
       - '!karma.conf.js'
       - 'example/index.html'
       - 'package.json'
