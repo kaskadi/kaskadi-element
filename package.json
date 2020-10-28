@@ -32,6 +32,9 @@
   },
   "homepage": "https://github.com/kaskadi/kaskadi-element#readme",
   "kaskadi": {
+    "docs": {
+      "example-lang": "js"
+    },
     "s3-push": {
       "files": [
         {
