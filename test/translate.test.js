@@ -4,7 +4,7 @@ const L = {
   hello: {
     en: 'hello',
     de: 'hallo',
-    es: 'holla'
+    es: 'hola'
   }
 }
 describe('translate', () => {
@@ -18,7 +18,7 @@ describe('translate', () => {
     s1.length.should.equal(3)
     s1[1].en.should.equal('hello')
     s1[1].de.should.equal('hallo')
-    s1[1].es.should.equal('holla')
+    s1[1].es.should.equal('hola')
     translate(s1, 'de').should.equal('hallo')
     translate(s1, 'fr').should.equal('hello')
   })
@@ -44,6 +44,6 @@ describe('translate', () => {
     }
     const s2 = lang`${s1}!`
     translate(s2, 'fr').should.equal('hello Monde!') // hello unknown in frensh
-    translate(s2, 'es').should.equal('holla World!') // hello world phrase unknown in spanish but hello known in es
+    translate(s2, 'es').should.equal('hola World!') // hello world phrase unknown in spanish but hello known in es
   })
 })
