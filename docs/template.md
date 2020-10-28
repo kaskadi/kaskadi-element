@@ -26,44 +26,20 @@
 
 ****
 
-# Testing
-
-`mocha`, `chai`, `standard` & `karma` are available as dev dependencies.
-
-A `build` workflow (see [here](./.github/workflows/build.yml)) along with individual [`build-on-chrome`](./.github/workflows/buildChrome.yml) and [`build-on-firefox`](./.github/workflows/buildFF.yml) workflows are running on `pull request` and will execute your test suite before allowing you to merge your PR. It also has a `coverage` job already prepared that you can comment out as soon as your testing is in place and your `REPORTER_ID` is in the repository secrets. This is the ID on _Code Climate_ used for uploading code coverage reports.
-
-****
-
-# Documentation
-
-This repository comes with a `generate-docs` workflow that generates documentation automatically for you using [`JSDOC`](https://jsdoc.app/). It'll check the element's file (found in the `main` field of `package.json`) for `JSDOC`-like comments in order to build its documentation. It also checks for any CSS custom variables and lists them in the documentation. See [here](https://github.com/kaskadi/action-generate-docs) and [there](./serverless.yml) for more information.
-
-If you would like to see the workflow configuration, head [here](./.github/workflows/generate-docs.yml).
-
-You can configure the template used to generate the action documentation [here](./docs/template.md).
-
-****
-
-# Publishing
-
-Publishing to CDN is done automatically via a `publish` workflow (see [here](./.github/workflows/publish.yml)). This workflow will run on `push` to `master`. It uses our internal action `action-s3cp` and a `kaskadi.s3-push` configuration field in `package.json`. See [here](https://github.com/kaskadi/action-s3cp) for more details on how to use this action.
-
-****
-
 <!-- automatically generated documentation will be placed in here -->
 {{>main}}
 <!-- automatically generated documentation will be placed in here -->
 
 # Translation modules <a name="translation-module"></a>
 
-This element also provides `lang` and `translate` as exports. Those two modules work in tandem and provide localization ability to an element.
+`KaskadiElement` provides `lang` and `translate` as exports. Those two modules work in tandem and provide localization ability to an element.
 
 The `lang` module allows you to create a `lang` template string out of an object that defines multi-language localization for a sentence. It also handles regular strings.
 
 The `translate` module would translate a `lang` templated string into the desired language.
 
-_Notes:_:
-- if the language you're looking to translate to is unavailable (or if no language is provided), it would fall back to English.
+_Notes:_
+- if the language you're looking to translate to is unavailable (or if no language is provided), it falls back to English.
 - you can also combine `lang` templated string with regular string to do partial translation.
 
 _Example:_

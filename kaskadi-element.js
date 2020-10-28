@@ -7,7 +7,7 @@ import { lang, translate } from './modules/translator.js'
  *
  * This does not render anything and is used for the sole purpose of bringing a set of properties and base utilities to every elements created in Kaskadi. Therefore **you should not use this element in the browser** but only as an import that is used for creating sub-classes on which custom elements are based.
  *
- * _Note:_ this module also exports `html`, `css` and `LitElement` from `lit-element` for further usage. It also exports its own localization modules `lang` and `translate`. See [here](#translation-module) for more information.
+ * _Note:_ this module exports `html`, `css` and `LitElement` from `lit-element` for further usage. It also exports its own localization modules `lang` and `translate`. See [here](#translation-module) for more information.
  *
  * @module KaskadiElement
  *
