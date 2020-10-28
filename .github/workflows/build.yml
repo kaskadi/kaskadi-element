@@ -7,6 +7,7 @@ on:
     types: [opened, reopened, edited, synchronize]
     paths:
       - '**.js'
+      - 'test/**'
 jobs:
   coverage:
     runs-on: ubuntu-latest
