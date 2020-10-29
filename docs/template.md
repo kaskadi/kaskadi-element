@@ -1,26 +1,26 @@
-![](https://img.shields.io/github/package-json/v/kaskadi/template-kaskadi-element)
+![](https://img.shields.io/github/package-json/v/kaskadi/kaskadi-element)
 ![](https://img.shields.io/badge/code--style-standard-blue)
-![](https://img.shields.io/github/license/kaskadi/template-kaskadi-element?color=blue)
+![](https://img.shields.io/github/license/kaskadi/kaskadi-element?color=blue)
 
-[![](https://img.shields.io/badge/live-example-orange)](https://cdn.klimapartner.net/modules/%40kaskadi/template-kaskadi-element/example/index.html)
+[![](https://img.shields.io/badge/live-example-orange)](https://cdn.klimapartner.net/modules/%40kaskadi/kaskadi-element/example/index.html)
 
 **GitHub Actions workflows status**
 
-[![Build status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build?label=build&logo=mocha)](https://github.com/kaskadi/template-kaskadi-element/actions?query=workflow%3Abuild)
-[![BuildFF status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-firefox?label=firefox&logo=Mozilla%20Firefox&logoColor=white)](https://github.com/kaskadi/template-kaskadi-element/actions?query=workflow%3Abuild-on-firefox)
-[![BuildChrome status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-chrome?label=chrome&logo=Google%20Chrome&logoColor=white)](https://github.com/kaskadi/template-kaskadi-element/actions?query=workflow%3Abuild-on-chrome)
-[![Publish status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=publish&logo=Amazon%20AWS)](https://github.com/kaskadi/template-kaskadi-element/actions?query=workflow%3Apublish)
-[![Docs generation status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/generate-docs?label=docs&logo=read-the-docs)](https://github.com/kaskadi/template-kaskadi-element/actions?query=workflow%3Agenerate-docs)
+[![Build status](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-element/build?label=build&logo=mocha)](https://github.com/kaskadi/kaskadi-element/actions?query=workflow%3Abuild)
+[![BuildFF status](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-element/build-on-firefox?label=firefox&logo=Mozilla%20Firefox&logoColor=white)](https://github.com/kaskadi/kaskadi-element/actions?query=workflow%3Abuild-on-firefox)
+[![BuildChrome status](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-element/build-on-chrome?label=chrome&logo=Google%20Chrome&logoColor=white)](https://github.com/kaskadi/kaskadi-element/actions?query=workflow%3Abuild-on-chrome)
+[![Publish status](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-element/publish?label=publish&logo=Amazon%20AWS)](https://github.com/kaskadi/kaskadi-element/actions?query=workflow%3Apublish)
+[![Docs generation status](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-element/generate-docs?label=docs&logo=read-the-docs)](https://github.com/kaskadi/kaskadi-element/actions?query=workflow%3Agenerate-docs)
 
 **CodeClimate**
 
-[![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element?label=maintainability&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-element)
-[![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element?label=technical%20debt&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-element)
-[![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element?label=test%20coverage&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-element)
+[![](https://img.shields.io/codeclimate/maintainability/kaskadi/kaskadi-element?label=maintainability&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-element)
+[![](https://img.shields.io/codeclimate/tech-debt/kaskadi/kaskadi-element?label=technical%20debt&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-element)
+[![](https://img.shields.io/codeclimate/coverage/kaskadi/kaskadi-element?label=test%20coverage&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-element)
 
 **LGTM**
 
-[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-element?label=code%20quality&logo=LGTM)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-element/?mode=list&logo=LGTM)
+[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/kaskadi-element?label=code%20quality&logo=LGTM)](https://lgtm.com/projects/g/kaskadi/kaskadi-element/?mode=list&logo=LGTM)
 
 <!-- You can add badges inside of this section if you'd like -->
 
