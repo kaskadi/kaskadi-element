@@ -50,9 +50,9 @@ const hello = {
   es: 'hola'
 }
 const s1 = lang`${hello}`
-console.log(translate(s1, 'de')) // prints out `hallo`
-console.log(translate(s1, 'fr')) // prints out `hello` because we don't know the french localization for `hello`
-console.log(translate(s1)) // prints out `hello` because we did not provide a language so it falls back to English
+console.log(translate(s1, 'de')) // `hallo`
+console.log(translate(s1, 'fr')) // `hello`: no French localization for `hello` -> it falls back to English
+console.log(translate(s1)) // `hello`: language not provided -> it falls back to English
 
 const helloWorld = {
   de: lang`${hello} Welt`,
@@ -60,6 +60,6 @@ const helloWorld = {
   fr: lang`${hello} Monde`
 }
 const s2 = lang`${helloWorld}!`
-console.log(translate(s2, 'fr')) // prints out `hello Monde!` because we don't know the french localization for `hello`
-console.log(translate(s2, 'es')) // prints out `hola World!` because the Spanish localization for `hello` is `hola`
+console.log(translate(s2, 'fr')) // `hello Monde!`: no French localization for `hello` -> it falls back to English
+console.log(translate(s2, 'es')) // `hola World!`: the Spanish localization for `hello` is `hola`
 ```

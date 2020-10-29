@@ -15,7 +15,13 @@ import { lang, translate } from './modules/translator.js'
  *
  * @example
  *
- * import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
+ * import {
+ *  lang,
+ *  translate,
+ *  KaskadiElement,
+ *  css,
+ *  html
+ * } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
  *
  * class KaskadiCustomElement extends KaskadiElement {
  *  constructor () {
