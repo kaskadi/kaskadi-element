@@ -62,3 +62,5 @@ class KaskadiElement extends LitElement {
 export { css, html, LitElement, KaskadiElement, lang, translate }
 
 export default KaskadiElement
+
+// force
